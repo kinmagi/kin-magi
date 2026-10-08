@@ -1,0 +1,1341 @@
+{
+  "schema_version": 1,
+  "version": "cw011-2026-10-08.1",
+  "sources": [
+    {
+      "id": "isotopes-H",
+      "title": "NIST Atomic Weights and Isotopic Compositions: H",
+      "url": "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=H",
+      "accessed": "2026-10-08",
+      "release": "NIST compilation last data update January 2015; atomic weights 2013, isotopic composition 2009, AME2012",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": "Coursey, Schwab, Tsai and Dragoset; Meija et al. (2013 weights), Berglund and Wieser (2009 compositions), Wang et al. (AME2012)",
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "isotopes-O",
+      "title": "NIST Atomic Weights and Isotopic Compositions: O",
+      "url": "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=O",
+      "accessed": "2026-10-08",
+      "release": "NIST compilation last data update January 2015; atomic weights 2013, isotopic composition 2009, AME2012",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": "Coursey, Schwab, Tsai and Dragoset; Meija et al. (2013 weights), Berglund and Wieser (2009 compositions), Wang et al. (AME2012)",
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "isotopes-Al",
+      "title": "NIST Atomic Weights and Isotopic Compositions: Al",
+      "url": "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=Al",
+      "accessed": "2026-10-08",
+      "release": "NIST compilation last data update January 2015; atomic weights 2013, isotopic composition 2009, AME2012",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": "Coursey, Schwab, Tsai and Dragoset; Meija et al. (2013 weights), Berglund and Wieser (2009 compositions), Wang et al. (AME2012)",
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "isotopes-Cu",
+      "title": "NIST Atomic Weights and Isotopic Compositions: Cu",
+      "url": "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=Cu",
+      "accessed": "2026-10-08",
+      "release": "NIST compilation last data update January 2015; atomic weights 2013, isotopic composition 2009, AME2012",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": "Coursey, Schwab, Tsai and Dragoset; Meija et al. (2013 weights), Berglund and Wieser (2009 compositions), Wang et al. (AME2012)",
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "isotope-notes",
+      "title": "NIST isotopic column descriptions",
+      "url": "https://physics.nist.gov/PhysRefData/Compositions/notes.html",
+      "accessed": "2026-10-08",
+      "release": "source page",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": null,
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "atomic-index",
+      "title": "NIST atomic dataset scope and provenance",
+      "url": "https://www.nist.gov/pml/atomic-weights-and-isotopic-compositions-relative-atomic-masses",
+      "accessed": "2026-10-08",
+      "release": "2015 data; page updated 2024",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": null,
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "star-copper",
+      "title": "NIST STAR composition of COPPER",
+      "url": "https://physics.nist.gov/cgi-bin/Star/compos.pl?matno=029",
+      "accessed": "2026-10-08",
+      "release": "page snapshot access date",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": null,
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "star-aluminum",
+      "title": "NIST STAR composition of ALUMINUM",
+      "url": "https://physics.nist.gov/cgi-bin/Star/compos.pl?matno=013",
+      "accessed": "2026-10-08",
+      "release": "page snapshot access date",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": null,
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "star-water",
+      "title": "NIST STAR composition of WATER, LIQUID",
+      "url": "https://physics.nist.gov/cgi-bin/Star/compos.pl?matno=276",
+      "accessed": "2026-10-08",
+      "release": "page snapshot access date",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": null,
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "density-notes",
+      "title": "NIST X-ray nominal density context",
+      "url": "https://physics.nist.gov/PhysRefData/XrayMassCoef/tab1.html",
+      "accessed": "2026-10-08",
+      "release": "source page; nominal evaluation constants",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": null,
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "cu-cp",
+      "title": "NIST Chemistry WebBook SRD 69: copper solid Shomate heat capacity",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440508&Mask=2",
+      "accessed": "2026-10-08",
+      "release": "2025 WebBook data release; coefficients Chase 1998; reviewed June 1977",
+      "rights": "SRD 69 compilation copyright US Secretary of Commerce; limited scientific factual excerpt, not full-database redistribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": "Chase, M.W., Jr., NIST-JANAF Thermochemical Tables, Fourth Edition, J. Phys. Chem. Ref. Data, Monograph 9 (1998), 1-1951; DOI for WebBook: 10.18434/T4D303",
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "cu-melting",
+      "title": "NIST Chemistry WebBook SRD 69: copper fusion temperature",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440508&Mask=4",
+      "accessed": "2026-10-08",
+      "release": "2025 WebBook data release; Anonymous 1988",
+      "rights": "SRD 69 compilation copyright US Secretary of Commerce; limited scientific factual excerpt; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": "Anonymous, NBS Spec. Publ. (U.S.) 260 (1988), as cited by NIST TRC; TRC-assigned uncertainty",
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "al6061",
+      "title": "NIST cryogenic material properties: 6061-T6 Aluminum UNS A96061",
+      "url": "https://trc.nist.gov/cryogenics/materials/6061%20Aluminum/6061_T6Aluminum_rev.htm",
+      "accessed": "2026-10-08",
+      "release": "no release identifier displayed; access date pin",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": "NIST cryogenic compilation; property-specific bibliography in cryo-refs",
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "cryo-refs",
+      "title": "NIST cryogenic material properties bibliography, Aluminum 6061 section",
+      "url": "https://trc.nist.gov/cryogenics/materials/references.htm",
+      "accessed": "2026-10-08",
+      "release": "source page",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": "Specific heat: LNG Materials and Fluids, Douglas Mann (ed.), NBS Cryogenics Division, 1977. Conductivity: Thermal Properties Database for Materials at Cryogenic Temperatures, Holly M. Veres (ed.), Vol. 1; Touloukian, Purdue University, February 1965, as listed by NIST.",
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "codata",
+      "title": "NIST 2022 CODATA fundamental constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "accessed": "2026-10-08",
+      "release": "2022 CODATA adjustment",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": null,
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "rest-energy-model",
+      "title": "NIST Kilogram: Mass and Planck's Constant (mass-energy relation)",
+      "url": "https://www.nist.gov/si-redefinition/kilogram/kilogram-mass-and-plancks-constant",
+      "accessed": "2026-10-08",
+      "release": "source page; established relation E=m*c^2",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": null,
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "si-conversions",
+      "title": "NIST SP 811 Appendix B.8: conversion factors",
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+      "accessed": "2026-10-08",
+      "release": "SP 811 unit definitions/conversion factors",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": null,
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    {
+      "id": "si-units",
+      "title": "NIST SP 811 Chapter 4: SI units and prefixes",
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes",
+      "accessed": "2026-10-08",
+      "release": "SP 811 dimensional and Celsius definitions; not used for historical pre-2019 constant values",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "reference": null,
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    }
+  ],
+  "elements": [
+    {
+      "symbol": "H",
+      "name": "hydrogen",
+      "atomic_number": 1,
+      "source_id": "isotopes-H",
+      "standard_atomic_weight": {
+        "value": [
+          "1.00784",
+          "1.00811"
+        ],
+        "units": "1",
+        "uncertainty": {
+          "value": null,
+          "kind": "natural_variation_interval",
+          "note": "The value is a published interval of standard atomic weights, not a point estimate or confidence interval.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "status": "reference_compilation",
+      "notes": "Relative atomic weight is dimensionless; no scalar is substituted for an interval."
+    },
+    {
+      "symbol": "O",
+      "name": "oxygen",
+      "atomic_number": 8,
+      "source_id": "isotopes-O",
+      "standard_atomic_weight": {
+        "value": [
+          "15.99903",
+          "15.99977"
+        ],
+        "units": "1",
+        "uncertainty": {
+          "value": null,
+          "kind": "natural_variation_interval",
+          "note": "The value is a published interval of standard atomic weights, not a point estimate or confidence interval.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "status": "reference_compilation",
+      "notes": "Relative atomic weight is dimensionless; no scalar is substituted for an interval."
+    },
+    {
+      "symbol": "Al",
+      "name": "aluminum",
+      "atomic_number": 13,
+      "source_id": "isotopes-Al",
+      "standard_atomic_weight": {
+        "value": "26.9815385",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.0000007",
+          "kind": "source_parenthetical",
+          "note": "Source parenthetical uncertainty; not assumed to be a one-sigma standard uncertainty.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "status": "reference_compilation",
+      "notes": "Relative atomic weight is dimensionless; no scalar is substituted for an interval."
+    },
+    {
+      "symbol": "Cu",
+      "name": "copper",
+      "atomic_number": 29,
+      "source_id": "isotopes-Cu",
+      "standard_atomic_weight": {
+        "value": "63.546",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.003",
+          "kind": "source_parenthetical",
+          "note": "Source parenthetical uncertainty; not assumed to be a one-sigma standard uncertainty.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "status": "reference_compilation",
+      "notes": "Relative atomic weight is dimensionless; no scalar is substituted for an interval."
+    }
+  ],
+  "isotopes": [
+    {
+      "element_symbol": "H",
+      "mass_number": 1,
+      "source_id": "isotopes-H",
+      "relative_atomic_mass": {
+        "value": "1.00782503223",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.00000000009",
+          "kind": "source_parenthetical",
+          "note": "Source parenthetical uncertainty, not presumed Gaussian.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "mole_fraction": {
+        "value": "0.999885",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.000070",
+          "kind": "source_parenthetical",
+          "note": "Representative composition, not a universal specimen composition.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      }
+    },
+    {
+      "element_symbol": "H",
+      "mass_number": 2,
+      "source_id": "isotopes-H",
+      "relative_atomic_mass": {
+        "value": "2.01410177812",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.00000000012",
+          "kind": "source_parenthetical",
+          "note": "Source parenthetical uncertainty, not presumed Gaussian.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "mole_fraction": {
+        "value": "0.000115",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.000070",
+          "kind": "source_parenthetical",
+          "note": "Representative composition, not a universal specimen composition.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      }
+    },
+    {
+      "element_symbol": "H",
+      "mass_number": 3,
+      "source_id": "isotopes-H",
+      "relative_atomic_mass": {
+        "value": "3.0160492779",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.0000000024",
+          "kind": "source_parenthetical",
+          "note": "Source parenthetical uncertainty, not presumed Gaussian.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "mole_fraction": {
+        "value": null,
+        "units": "1",
+        "uncertainty": {
+          "value": null,
+          "kind": "not_reported",
+          "note": "Representative abundance variation and experimental error; no covariance supplied. Tritium abundance is not tabulated.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      }
+    },
+    {
+      "element_symbol": "O",
+      "mass_number": 16,
+      "source_id": "isotopes-O",
+      "relative_atomic_mass": {
+        "value": "15.99491461957",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.00000000017",
+          "kind": "source_parenthetical",
+          "note": "Source parenthetical uncertainty, not presumed Gaussian.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "mole_fraction": {
+        "value": "0.99757",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.00016",
+          "kind": "source_parenthetical",
+          "note": "Representative composition, not a universal specimen composition.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      }
+    },
+    {
+      "element_symbol": "O",
+      "mass_number": 17,
+      "source_id": "isotopes-O",
+      "relative_atomic_mass": {
+        "value": "16.99913175650",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.00000000069",
+          "kind": "source_parenthetical",
+          "note": "Source parenthetical uncertainty, not presumed Gaussian.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "mole_fraction": {
+        "value": "0.00038",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.00001",
+          "kind": "source_parenthetical",
+          "note": "Representative composition, not a universal specimen composition.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      }
+    },
+    {
+      "element_symbol": "O",
+      "mass_number": 18,
+      "source_id": "isotopes-O",
+      "relative_atomic_mass": {
+        "value": "17.99915961286",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.00000000076",
+          "kind": "source_parenthetical",
+          "note": "Source parenthetical uncertainty, not presumed Gaussian.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "mole_fraction": {
+        "value": "0.00205",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.00014",
+          "kind": "source_parenthetical",
+          "note": "Representative composition, not a universal specimen composition.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      }
+    },
+    {
+      "element_symbol": "Al",
+      "mass_number": 27,
+      "source_id": "isotopes-Al",
+      "relative_atomic_mass": {
+        "value": "26.98153853",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.00000011",
+          "kind": "source_parenthetical",
+          "note": "Source parenthetical uncertainty, not presumed Gaussian.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "mole_fraction": {
+        "value": "1",
+        "units": "1",
+        "uncertainty": {
+          "value": null,
+          "kind": "not_reported",
+          "note": "Representative composition, not a universal specimen composition.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      }
+    },
+    {
+      "element_symbol": "Cu",
+      "mass_number": 63,
+      "source_id": "isotopes-Cu",
+      "relative_atomic_mass": {
+        "value": "62.92959772",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.00000056",
+          "kind": "source_parenthetical",
+          "note": "Source parenthetical uncertainty, not presumed Gaussian.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "mole_fraction": {
+        "value": "0.6915",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.0015",
+          "kind": "source_parenthetical",
+          "note": "Representative composition, not a universal specimen composition.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      }
+    },
+    {
+      "element_symbol": "Cu",
+      "mass_number": 65,
+      "source_id": "isotopes-Cu",
+      "relative_atomic_mass": {
+        "value": "64.92778970",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.00000071",
+          "kind": "source_parenthetical",
+          "note": "Source parenthetical uncertainty, not presumed Gaussian.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      },
+      "mole_fraction": {
+        "value": "0.3085",
+        "units": "1",
+        "uncertainty": {
+          "value": "0.0015",
+          "kind": "source_parenthetical",
+          "note": "Representative composition, not a universal specimen composition.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "normal terrestrial material; representative compilation, not a specimen measurement"
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "id": "copper",
+      "name": "Copper",
+      "kind": "metal",
+      "phase": "solid",
+      "source_id": "star-copper",
+      "identifier": "element Cu; not OFHC or a certified batch",
+      "composition": {
+        "basis": "mass_fraction",
+        "fractions": {
+          "Cu": "1"
+        },
+        "units": "1",
+        "source_id": "star-copper",
+        "uncertainty": {
+          "value": null,
+          "kind": "not_reported",
+          "note": "Source does not report a measurement uncertainty for this item.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "NIST nominal elemental composition"
+        },
+        "status": "reference_nominal"
+      }
+    },
+    {
+      "id": "aluminum",
+      "name": "Aluminum",
+      "kind": "metal",
+      "phase": "solid",
+      "source_id": "star-aluminum",
+      "identifier": "element Al; not alloy 6061",
+      "composition": {
+        "basis": "mass_fraction",
+        "fractions": {
+          "Al": "1"
+        },
+        "units": "1",
+        "source_id": "star-aluminum",
+        "uncertainty": {
+          "value": null,
+          "kind": "not_reported",
+          "note": "Source does not report a measurement uncertainty for this item.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "NIST nominal elemental composition"
+        },
+        "status": "reference_nominal"
+      }
+    },
+    {
+      "id": "water",
+      "name": "Liquid water, NIST STAR nominal composition",
+      "kind": "compound",
+      "phase": "liquid",
+      "source_id": "star-water",
+      "identifier": "STAR material 276",
+      "composition": {
+        "basis": "mass_fraction",
+        "fractions": {
+          "H": "0.111894",
+          "O": "0.888106"
+        },
+        "units": "1",
+        "source_id": "star-water",
+        "uncertainty": {
+          "value": null,
+          "kind": "not_reported",
+          "note": "Source does not report a measurement uncertainty for this item.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "NIST nominal elemental composition"
+        },
+        "status": "reference_nominal"
+      }
+    },
+    {
+      "id": "al6061-t6",
+      "name": "6061-T6 aluminum",
+      "kind": "alloy",
+      "phase": "solid",
+      "source_id": "al6061",
+      "identifier": "UNS A96061; temper T6",
+      "composition": {
+        "basis": "unknown",
+        "fractions": null,
+        "units": "1",
+        "source_id": "al6061",
+        "uncertainty": {
+          "value": null,
+          "kind": "not_reported",
+          "note": "Source does not report a measurement uncertainty for this item.",
+          "units": "1"
+        },
+        "conditions": {
+          "scope": "Grade and temper identity only; no certified batch composition on selected NIST page"
+        },
+        "status": "unknown"
+      }
+    }
+  ],
+  "properties": [
+    {
+      "material_id": "copper",
+      "name": "density",
+      "status": "reference_nominal",
+      "source_id": "star-copper",
+      "units": "g/cm3",
+      "value": "8.96000",
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": "solid"
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "g/cm3"
+      },
+      "model": null,
+      "note": "Nominal material constant for NIST radiation/stopping-power evaluation; temperature and pressure not supplied. Not a condition-calibrated density measurement."
+    },
+    {
+      "material_id": "aluminum",
+      "name": "density",
+      "status": "reference_nominal",
+      "source_id": "star-aluminum",
+      "units": "g/cm3",
+      "value": "2.69890",
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": "solid"
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "g/cm3"
+      },
+      "model": null,
+      "note": "Nominal material constant for NIST radiation/stopping-power evaluation; temperature and pressure not supplied. Not a condition-calibrated density measurement."
+    },
+    {
+      "material_id": "water",
+      "name": "density",
+      "status": "reference_nominal",
+      "source_id": "star-water",
+      "units": "g/cm3",
+      "value": "1.00000",
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": "liquid"
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "g/cm3"
+      },
+      "model": null,
+      "note": "Nominal material constant for NIST radiation/stopping-power evaluation; temperature and pressure not supplied. Not a condition-calibrated density measurement."
+    },
+    {
+      "material_id": "copper",
+      "name": "melting_temperature",
+      "status": "reference_nominal",
+      "source_id": "cu-melting",
+      "units": "K",
+      "value": "1357.95",
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": "solid-liquid transition"
+      },
+      "uncertainty": {
+        "value": "0.2",
+        "kind": "TRC_assigned",
+        "note": "TRC assigned 0.2 K; coverage factor not specified.",
+        "units": "K"
+      },
+      "model": null,
+      "note": "Nominal catalog value, not reclassified as a direct verified measurement."
+    },
+    {
+      "material_id": "copper",
+      "name": "molar_heat_capacity",
+      "status": "approximation",
+      "source_id": "cu-cp",
+      "units": "J/(mol K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": [
+          298,
+          1358
+        ],
+        "pressure_Pa": null,
+        "phase": "solid",
+        "scope": "standard-state Cp; pressure-specific queries unsupported"
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "J/(mol K)"
+      },
+      "model": {
+        "kind": "shomate_cp",
+        "coefficients": [
+          "17.72891",
+          "28.09870",
+          "-31.25289",
+          "13.97243",
+          "0.068611"
+        ],
+        "formula": "Cp/(J mol^-1 K^-1) = A + B*t + C*t^2 + D*t^3 + E/t^2; t=T/(1000 K)",
+        "implementation_max_K": 1357,
+        "limit_note": "Conservative 1357 K cap below nominal 1357.95 K fusion point; no metastable solid extrapolation."
+      },
+      "note": "Calculated from a source-published approximation; coefficient and fit uncertainties not reported."
+    },
+    {
+      "material_id": "al6061-t6",
+      "name": "thermal_conductivity",
+      "status": "approximation",
+      "source_id": "al6061",
+      "units": "W/(m K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": [
+          4,
+          300
+        ],
+        "pressure_Pa": null,
+        "phase": "solid",
+        "scope": "6061-T6 only; pressure and batch composition unspecified"
+      },
+      "uncertainty": {
+        "value": "0.5",
+        "kind": "curve_fit_percent",
+        "note": "Percent error relative to source data; not a full measurement uncertainty or confidence bound.",
+        "units": "percent"
+      },
+      "model": {
+        "kind": "log10_polynomial",
+        "coefficients": [
+          "0.07918",
+          "1.0957",
+          "-0.07277",
+          "0.08084",
+          "0.02803",
+          "-0.09464",
+          "0.04179",
+          "-0.00571",
+          "0"
+        ],
+        "formula": "log10(y / output_unit) = sum(a_i * log10(T/(1 K))^i)",
+        "source_equation_min_K": 1,
+        "source_data_min_K": 4
+      },
+      "note": "Evaluation restricted to overlap of source data and equation ranges (4–300 K). No extrapolation to 1 K."
+    },
+    {
+      "material_id": "al6061-t6",
+      "name": "specific_heat",
+      "status": "approximation",
+      "source_id": "al6061",
+      "units": "J/(kg K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": [
+          4,
+          300
+        ],
+        "pressure_Pa": null,
+        "phase": "solid",
+        "scope": "6061-T6 only; pressure and batch composition unspecified"
+      },
+      "uncertainty": {
+        "value": "5",
+        "kind": "curve_fit_percent",
+        "note": "Percent error relative to source data; not a full measurement uncertainty or confidence bound.",
+        "units": "percent"
+      },
+      "model": {
+        "kind": "log10_polynomial",
+        "coefficients": [
+          "46.6467",
+          "-314.292",
+          "866.662",
+          "-1298.3",
+          "1162.27",
+          "-637.795",
+          "210.351",
+          "-38.3094",
+          "2.96344"
+        ],
+        "formula": "log10(y / output_unit) = sum(a_i * log10(T/(1 K))^i)",
+        "source_equation_min_K": 4,
+        "source_data_min_K": 4
+      },
+      "note": "Evaluation restricted to overlap of source data and equation ranges (4–300 K). No extrapolation to 1 K."
+    },
+    {
+      "material_id": "copper",
+      "name": "thermal_conductivity",
+      "status": "unknown",
+      "source_id": null,
+      "units": "W/(m K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "W/(m K)"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "copper",
+      "name": "electrical_resistivity",
+      "status": "unknown",
+      "source_id": null,
+      "units": "ohm m",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "ohm m"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "copper",
+      "name": "specific_heat",
+      "status": "unknown",
+      "source_id": null,
+      "units": "J/(kg K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "J/(kg K)"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "aluminum",
+      "name": "thermal_conductivity",
+      "status": "unknown",
+      "source_id": null,
+      "units": "W/(m K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "W/(m K)"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "aluminum",
+      "name": "electrical_resistivity",
+      "status": "unknown",
+      "source_id": null,
+      "units": "ohm m",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "ohm m"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "aluminum",
+      "name": "specific_heat",
+      "status": "unknown",
+      "source_id": null,
+      "units": "J/(kg K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "J/(kg K)"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "aluminum",
+      "name": "melting_temperature",
+      "status": "unknown",
+      "source_id": null,
+      "units": "K",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "K"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "aluminum",
+      "name": "molar_heat_capacity",
+      "status": "unknown",
+      "source_id": null,
+      "units": "J/(mol K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "J/(mol K)"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "water",
+      "name": "thermal_conductivity",
+      "status": "unknown",
+      "source_id": null,
+      "units": "W/(m K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "W/(m K)"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "water",
+      "name": "electrical_resistivity",
+      "status": "unknown",
+      "source_id": null,
+      "units": "ohm m",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "ohm m"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "water",
+      "name": "specific_heat",
+      "status": "unknown",
+      "source_id": null,
+      "units": "J/(kg K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "J/(kg K)"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "water",
+      "name": "melting_temperature",
+      "status": "unknown",
+      "source_id": null,
+      "units": "K",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "K"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "water",
+      "name": "molar_heat_capacity",
+      "status": "unknown",
+      "source_id": null,
+      "units": "J/(mol K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "J/(mol K)"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "al6061-t6",
+      "name": "density",
+      "status": "unknown",
+      "source_id": null,
+      "units": "g/cm3",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "g/cm3"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "al6061-t6",
+      "name": "electrical_resistivity",
+      "status": "unknown",
+      "source_id": null,
+      "units": "ohm m",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "ohm m"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "al6061-t6",
+      "name": "melting_temperature",
+      "status": "unknown",
+      "source_id": null,
+      "units": "K",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "K"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    },
+    {
+      "material_id": "al6061-t6",
+      "name": "molar_heat_capacity",
+      "status": "unknown",
+      "source_id": null,
+      "units": "J/(mol K)",
+      "value": null,
+      "conditions": {
+        "temperature_K": null,
+        "pressure_Pa": null,
+        "phase": null
+      },
+      "uncertainty": {
+        "value": null,
+        "kind": "not_reported",
+        "note": "Source does not report a measurement uncertainty for this item.",
+        "units": "J/(mol K)"
+      },
+      "model": null,
+      "note": "No verified applicable value curated in this release. This does not assert that the property is absent from scientific literature."
+    }
+  ],
+  "constants": [
+    {
+      "id": "c",
+      "name": "speed of light in vacuum",
+      "source_id": "codata",
+      "value": "299792458",
+      "units": "m/s",
+      "status": "exact_definition",
+      "conditions": {
+        "scope": "vacuum",
+        "temperature_K": null,
+        "pressure_Pa": null
+      },
+      "uncertainty": {
+        "value": "0",
+        "kind": "exact",
+        "note": "Zero for SI defining values; CODATA standard uncertainty for adjusted constants.",
+        "units": "m/s"
+      }
+    },
+    {
+      "id": "k_B",
+      "name": "Boltzmann constant",
+      "source_id": "codata",
+      "value": "1.380649e-23",
+      "units": "J/K",
+      "status": "exact_definition",
+      "conditions": {
+        "scope": "SI defining constant",
+        "temperature_K": null,
+        "pressure_Pa": null
+      },
+      "uncertainty": {
+        "value": "0",
+        "kind": "exact",
+        "note": "Zero for SI defining values; CODATA standard uncertainty for adjusted constants.",
+        "units": "J/K"
+      }
+    },
+    {
+      "id": "N_A",
+      "name": "Avogadro constant",
+      "source_id": "codata",
+      "value": "6.02214076e23",
+      "units": "1/mol",
+      "status": "exact_definition",
+      "conditions": {
+        "scope": "SI defining constant",
+        "temperature_K": null,
+        "pressure_Pa": null
+      },
+      "uncertainty": {
+        "value": "0",
+        "kind": "exact",
+        "note": "Zero for SI defining values; CODATA standard uncertainty for adjusted constants.",
+        "units": "1/mol"
+      }
+    },
+    {
+      "id": "G",
+      "name": "Newtonian constant of gravitation",
+      "source_id": "codata",
+      "value": "6.67430e-11",
+      "units": "m3/(kg s2)",
+      "status": "reference_measurement",
+      "conditions": {
+        "scope": "CODATA 2022 adjustment",
+        "temperature_K": null,
+        "pressure_Pa": null
+      },
+      "uncertainty": {
+        "value": "0.00015e-11",
+        "kind": "standard",
+        "note": "Zero for SI defining values; CODATA standard uncertainty for adjusted constants.",
+        "units": "m3/(kg s2)"
+      }
+    },
+    {
+      "id": "m_u",
+      "name": "atomic mass constant",
+      "source_id": "codata",
+      "value": "1.66053906892e-27",
+      "units": "kg",
+      "status": "reference_measurement",
+      "conditions": {
+        "scope": "CODATA 2022 adjustment",
+        "temperature_K": null,
+        "pressure_Pa": null
+      },
+      "uncertainty": {
+        "value": "0.00000000052e-27",
+        "kind": "standard",
+        "note": "Zero for SI defining values; CODATA standard uncertainty for adjusted constants.",
+        "units": "kg"
+      }
+    }
+  ]
+}
