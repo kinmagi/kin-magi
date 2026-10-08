@@ -1,0 +1,6 @@
+CREATE TABLE runs(id INTEGER PRIMARY KEY,source TEXT NOT NULL,query TEXT NOT NULL,started REAL NOT NULL,deadline REAL NOT NULL);
+CREATE TABLE run_results(run_id INTEGER PRIMARY KEY REFERENCES runs(id),finished REAL NOT NULL,status TEXT NOT NULL,reason TEXT NOT NULL);
+CREATE TABLE exchanges(id INTEGER PRIMARY KEY,run_id INTEGER REFERENCES runs(id),source TEXT NOT NULL,url TEXT NOT NULL,utc REAL NOT NULL,status INTEGER,body BLOB,sha256 TEXT,headers TEXT NOT NULL,outcome TEXT NOT NULL,origin TEXT NOT NULL,evidence_hash TEXT NOT NULL);
+CREATE TABLE observations(id INTEGER PRIMARY KEY,run_id INTEGER NOT NULL REFERENCES runs(id),incoming_id INTEGER NOT NULL REFERENCES incoming(id),classification TEXT NOT NULL,reason TEXT NOT NULL,metadata_changed INTEGER NOT NULL);
+CREATE TABLE verification_jobs(name TEXT PRIMARY KEY,source TEXT NOT NULL,query TEXT NOT NULL,interval_seconds REAL NOT NULL,next_due REAL NOT NULL,lease_until REAL NOT NULL DEFAULT 0,token TEXT,last_result TEXT NOT NULL DEFAULT 'never');
+CREATE TABLE cache_origin(key TEXT PRIMARY KEY,origin TEXT NOT NULL);
