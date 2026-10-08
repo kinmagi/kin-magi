@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.db
+*.db-*
+*.log
+results*.json
+source_inventory.json
+preservation_checks.json
+sources/
+.env
+.env.*
+.venv/
+venv/
