@@ -1,0 +1,24 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE meta(key TEXT PRIMARY KEY,value TEXT NOT NULL);
+CREATE TABLE responses(key TEXT PRIMARY KEY,url TEXT NOT NULL,body BLOB NOT NULL,sha256 TEXT NOT NULL,headers TEXT NOT NULL,fetched REAL NOT NULL);
+CREATE TABLE attempts(id INTEGER PRIMARY KEY,source TEXT NOT NULL,utc REAL NOT NULL,outcome TEXT NOT NULL);
+CREATE TABLE incoming(id INTEGER PRIMARY KEY,record TEXT NOT NULL,hash TEXT UNIQUE NOT NULL,classification TEXT NOT NULL,reason TEXT NOT NULL,baseline_hash TEXT NOT NULL);
+CREATE TABLE candidates(hash TEXT PRIMARY KEY,record TEXT NOT NULL,created REAL NOT NULL);
+CREATE TABLE approvals(candidate_hash TEXT PRIMARY KEY REFERENCES candidates(hash),reviewer TEXT NOT NULL,evidence TEXT NOT NULL,approved REAL NOT NULL);
+CREATE TABLE jobs(name TEXT PRIMARY KEY,source TEXT NOT NULL,query TEXT NOT NULL,interval_seconds REAL NOT NULL,next_due REAL NOT NULL,lease_until REAL NOT NULL DEFAULT 0,last_result TEXT NOT NULL DEFAULT 'never');
+CREATE TABLE throttle(source TEXT PRIMARY KEY,next_allowed REAL NOT NULL);
+CREATE TABLE publications(version TEXT PRIMARY KEY,candidate_hash TEXT NOT NULL,reviewer TEXT NOT NULL,path TEXT NOT NULL,utc REAL NOT NULL);
+CREATE TRIGGER no_incoming_update BEFORE UPDATE ON incoming BEGIN SELECT RAISE(ABORT,'immutable incoming records'); END;
+CREATE TRIGGER no_incoming_delete BEFORE DELETE ON incoming BEGIN SELECT RAISE(ABORT,'immutable incoming records'); END;
+CREATE TRIGGER no_candidate_update BEFORE UPDATE ON candidates BEGIN SELECT RAISE(ABORT,'immutable candidate'); END;
+CREATE TRIGGER no_candidate_delete BEFORE DELETE ON candidates BEGIN SELECT RAISE(ABORT,'immutable candidate'); END;
+
+CREATE TABLE captures(id TEXT PRIMARY KEY,body BLOB NOT NULL,evidence TEXT NOT NULL);
+CREATE TRIGGER no_capture_update BEFORE UPDATE ON captures BEGIN SELECT RAISE(ABORT,'immutable capture'); END;
+CREATE TRIGGER no_capture_delete BEFORE DELETE ON captures BEGIN SELECT RAISE(ABORT,'immutable capture'); END;
+CREATE TRIGGER no_approvals_update BEFORE UPDATE ON approvals BEGIN SELECT RAISE(ABORT,'immutable audit'); END;
+CREATE TRIGGER no_approvals_delete BEFORE DELETE ON approvals BEGIN SELECT RAISE(ABORT,'immutable audit'); END;
+CREATE TRIGGER no_publications_update BEFORE UPDATE ON publications BEGIN SELECT RAISE(ABORT,'immutable audit'); END;
+CREATE TRIGGER no_publications_delete BEFORE DELETE ON publications BEGIN SELECT RAISE(ABORT,'immutable audit'); END;
+CREATE TRIGGER no_attempts_update BEFORE UPDATE ON attempts BEGIN SELECT RAISE(ABORT,'immutable audit'); END;
+CREATE TRIGGER no_attempts_delete BEFORE DELETE ON attempts BEGIN SELECT RAISE(ABORT,'immutable audit'); END;

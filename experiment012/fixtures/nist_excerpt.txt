@@ -1,0 +1,4 @@
+Fundamental Physical Constants --- selected excerpt
+2022 CODATA adjustment
+electron mass                                               9.109 383 7139 e-31      0.000 000 0028 e-31      kg
+atomic mass constant                                        1.660 539 068 92 e-27    0.000 000 000 52 e-27    kg

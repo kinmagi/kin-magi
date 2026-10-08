@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+.env
+.env.*
+.venv/
+venv/
+runs/
+releases/

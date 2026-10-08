@@ -1,0 +1,26 @@
+{
+  "utc": 1791463786.8042557,
+  "mode": "real official-endpoint acquisition; no simulated responses",
+  "results": [
+    {
+      "source": "nist",
+      "status": "unavailable",
+      "exception_type": "AccessUnavailable",
+      "reason": "network unavailable after bounded retries"
+    },
+    {
+      "source": "pubchem",
+      "status": "unavailable",
+      "exception_type": "AccessUnavailable",
+      "reason": "network unavailable after bounded retries"
+    },
+    {
+      "source": "materials_project",
+      "status": "unavailable",
+      "exception_type": "AccessUnavailable",
+      "reason": "MP_API_KEY required; no request made"
+    }
+  ],
+  "all_live_passed": false,
+  "published": false
+}
