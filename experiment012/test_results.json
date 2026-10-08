@@ -1,0 +1,51 @@
+{
+  "utc": 1791463958.9120293,
+  "python": "3.12.14",
+  "baseline_blobs_unchanged": {
+    "experiment010/.gitignore": true,
+    "experiment010/README.md": true,
+    "experiment010/REPORT.md": true,
+    "experiment010/demo.py": true,
+    "experiment010/engine.py": true,
+    "experiment010/models.py": true,
+    "experiment010/test_engine.py": true,
+    "experiment010/validation.py": true,
+    "experiment011/.gitignore": true,
+    "experiment011/DATA_NOTICES.md": true,
+    "experiment011/README.md": true,
+    "experiment011/REPORT.md": true,
+    "experiment011/baseline_blobs.json": true,
+    "experiment011/dataset.json": true,
+    "experiment011/demo.py": true,
+    "experiment011/demo_results.json": true,
+    "experiment011/laboratory.py": true,
+    "experiment011/make_dataset.py": true,
+    "experiment011/reference.py": true,
+    "experiment011/run_tests.py": true,
+    "experiment011/schema.sql": true,
+    "experiment011/test_reference.py": true,
+    "experiment011/test_results.json": true,
+    "experiment011/units.py": true
+  },
+  "all_passed": true,
+  "suites": [
+    {
+      "suite": "experiment010",
+      "count": 11,
+      "returncode": 0,
+      "output": "test_audit_tamper_detected (test_engine.EngineTests.test_audit_tamper_detected) ... ok\ntest_boundaries_order_and_limits (test_engine.EngineTests.test_boundaries_order_and_limits) ... ok\ntest_conservation_and_equal_levels (test_engine.EngineTests.test_conservation_and_equal_levels) ... ok\ntest_crash_after_commit_and_pending_recovery (test_engine.EngineTests.test_crash_after_commit_and_pending_recovery) ... ok\ntest_cross_region_atomic_conservation (test_engine.EngineTests.test_cross_region_atomic_conservation) ... ok\ntest_fault_rolls_back_state_event_and_status (test_engine.EngineTests.test_fault_rolls_back_state_event_and_status) ... ok\ntest_persistence_and_idempotent_revisit (test_engine.EngineTests.test_persistence_and_idempotent_revisit) ... ok\ntest_process_restart_and_uncommitted_crash (test_engine.EngineTests.test_process_restart_and_uncommitted_crash) ... ok\ntest_refuse_legacy_and_model_mismatch (test_engine.EngineTests.test_refuse_legacy_and_model_mismatch) ... ok\ntest_rejections_leave_state_events_unchanged (test_engine.EngineTests.test_rejections_leave_state_events_unchanged) ... ok\ntest_two_connections_stale_and_retry (test_engine.EngineTests.test_two_connections_stale_and_retry) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.160s\n\nOK\n"
+    },
+    {
+      "suite": "experiment011",
+      "count": 25,
+      "returncode": 0,
+      "output": "test_decimal_ledger_range_and_resolution (test_reference.LaboratoryTests.test_decimal_ledger_range_and_resolution) ... ok\ntest_invalid_references_and_identity_are_not_created (test_reference.LaboratoryTests.test_invalid_references_and_identity_are_not_created) ... ok\ntest_lab_rejects_other_world_and_audit_tampering (test_reference.LaboratoryTests.test_lab_rejects_other_world_and_audit_tampering) ... ok\ntest_mass_transfer_conserves_material_and_isolates_world_reference (test_reference.LaboratoryTests.test_mass_transfer_conserves_material_and_isolates_world_reference) ... ok\ntest_persistent_references_resolve_with_pinned_version (test_reference.LaboratoryTests.test_persistent_references_resolve_with_pinned_version) ... ok\ntest_pinned_dataset_mismatch_fails_closed (test_reference.LaboratoryTests.test_pinned_dataset_mismatch_fails_closed) ... ok\ntest_rejected_stale_excess_malformed_mixed_transfers (test_reference.LaboratoryTests.test_rejected_stale_excess_malformed_mixed_transfers) ... ok\ntest_subprocess_crash_recovery_before_and_after_commit (test_reference.LaboratoryTests.test_subprocess_crash_recovery_before_and_after_commit) ... ok\ntest_transaction_failure_rolls_back_both_objects_and_event (test_reference.LaboratoryTests.test_transaction_failure_rolls_back_both_objects_and_event) ... ok\ntest_two_clients_revalidate_current_lab_versions (test_reference.LaboratoryTests.test_two_clients_revalidate_current_lab_versions) ... ok\ntest_conditions_and_no_extrapolation (test_reference.ReferenceTests.test_conditions_and_no_extrapolation) ... ok\ntest_cryo_model_against_decimal_reference_evaluation (test_reference.ReferenceTests.test_cryo_model_against_decimal_reference_evaluation) ... ok\ntest_curated_manifest_reproduces_exactly (test_reference.ReferenceTests.test_curated_manifest_reproduces_exactly) ... ok\ntest_dataset_version_fingerprint_and_exclusive_builder (test_reference.ReferenceTests.test_dataset_version_fingerprint_and_exclusive_builder) ... ok\ntest_dimensions_of_established_model (test_reference.ReferenceTests.test_dimensions_of_established_model) ... ok\ntest_every_known_property_traces_to_conditions_uncertainty_and_source (test_reference.ReferenceTests.test_every_known_property_traces_to_conditions_uncertainty_and_source) ... ok\ntest_experiment010_sources_are_exact_upstream_blobs (test_reference.ReferenceTests.test_experiment010_sources_are_exact_upstream_blobs) ... ok\ntest_identity_and_composition (test_reference.ReferenceTests.test_identity_and_composition) ... ok\ntest_import_rejects_bad_source_dimensions_composition_and_model (test_reference.ReferenceTests.test_import_rejects_bad_source_dimensions_composition_and_model) ... ok\ntest_missing_properties_explicit_unknown_and_rejected (test_reference.ReferenceTests.test_missing_properties_explicit_unknown_and_rejected) ... ok\ntest_reference_read_only_and_tamper_detection (test_reference.ReferenceTests.test_reference_read_only_and_tamper_detection) ... ok\ntest_shomate_against_independent_source_display_table (test_reference.ReferenceTests.test_shomate_against_independent_source_display_table) ... ok\ntest_source_checked_values_and_classification (test_reference.ReferenceTests.test_source_checked_values_and_classification) ... ok\ntest_uncertainty_not_shifted_as_absolute_temperature (test_reference.ReferenceTests.test_uncertainty_not_shifted_as_absolute_temperature) ... ok\ntest_units_conversion_and_absolute_interval_semantics (test_reference.ReferenceTests.test_units_conversion_and_absolute_interval_semantics) ... ok\n\n----------------------------------------------------------------------\nRan 25 tests in 1.719s\n\nOK\n"
+    },
+    {
+      "suite": "experiment012",
+      "count": 41,
+      "returncode": 0,
+      "output": "test_approval_licence_gate (test_pipeline.Tests.test_approval_licence_gate) ... ok\ntest_approved_test_release_preserves_old (test_pipeline.Tests.test_approved_test_release_preserves_old) ... ok\ntest_auth_failure_not_retried (test_pipeline.Tests.test_auth_failure_not_retried) ... ok\ntest_baseline_change_invalidates_candidate (test_pipeline.Tests.test_baseline_change_invalidates_candidate) ... ok\ntest_bounded_network_retries (test_pipeline.Tests.test_bounded_network_retries) ... ok\ntest_cache_corruption (test_pipeline.Tests.test_cache_corruption) ... ok\ntest_cache_restart_and_secret_exclusion (test_pipeline.Tests.test_cache_restart_and_secret_exclusion) ... ok\ntest_candidate_immutable (test_pipeline.Tests.test_candidate_immutable) ... ok\ntest_candidate_restart (test_pipeline.Tests.test_candidate_restart) ... ok\ntest_capture_is_immutable (test_pipeline.Tests.test_capture_is_immutable) ... ok\ntest_conditions (test_pipeline.Tests.test_conditions) ... ok\ntest_conflict_detected (test_pipeline.Tests.test_conflict_detected) ... ok\ntest_correction_requires_resolution (test_pipeline.Tests.test_correction_requires_resolution) ... ok\ntest_demo_preserves_world_and_lab (test_pipeline.Tests.test_demo_preserves_world_and_lab) ... ok\ntest_dimension_mismatch (test_pipeline.Tests.test_dimension_mismatch) ... ok\ntest_dynamic_throttle_cooldown (test_pipeline.Tests.test_dynamic_throttle_cooldown) ... ok\ntest_existing_catalog_is_not_staging (test_pipeline.Tests.test_existing_catalog_is_not_staging) ... ok\ntest_idempotent_ingest (test_pipeline.Tests.test_idempotent_ingest) ... ok\ntest_identity_mismatch (test_pipeline.Tests.test_identity_mismatch) ... ok\ntest_long_retry_after_is_persisted (test_pipeline.Tests.test_long_retry_after_is_persisted) ... ok\ntest_mp_credentials_and_terms_gate (test_pipeline.Tests.test_mp_credentials_and_terms_gate) ... ok\ntest_mp_fixture_classification (test_pipeline.Tests.test_mp_fixture_classification) ... ok\ntest_nan_rejected (test_pipeline.Tests.test_nan_rejected) ... ok\ntest_new_and_baseline_duplicate (test_pipeline.Tests.test_new_and_baseline_duplicate) ... ok\ntest_provenance_missing (test_pipeline.Tests.test_provenance_missing) ... ok\ntest_pubchem_is_calculated_and_unresolved (test_pipeline.Tests.test_pubchem_is_calculated_and_unresolved) ... ok\ntest_rejected_not_candidate (test_pipeline.Tests.test_rejected_not_candidate) ... ok\ntest_retrieval_time_is_not_change (test_pipeline.Tests.test_retrieval_time_is_not_change) ... ok\ntest_retry_and_throttle (test_pipeline.Tests.test_retry_and_throttle) ... ok\ntest_scheduler_credential_queries_rejected (test_pipeline.Tests.test_scheduler_credential_queries_rejected) ... ok\ntest_scheduler_lease_recovery (test_pipeline.Tests.test_scheduler_lease_recovery) ... ok\ntest_scheduler_restart_failure_recovery (test_pipeline.Tests.test_scheduler_restart_failure_recovery) ... ok\ntest_source_traceability (test_pipeline.Tests.test_source_traceability) ... ok\ntest_synthetic_publication_rejected (test_pipeline.Tests.test_synthetic_publication_rejected) ... ok\ntest_transport_allowlist (test_pipeline.Tests.test_transport_allowlist) ... ok\ntest_unapproved_publication (test_pipeline.Tests.test_unapproved_publication) ... ok\ntest_uncertainty_dimensions (test_pipeline.Tests.test_uncertainty_dimensions) ... ok\ntest_unit_normalization (test_pipeline.Tests.test_unit_normalization) ... ok\ntest_unknown_property (test_pipeline.Tests.test_unknown_property) ... ok\ntest_unknown_units_rejected (test_pipeline.Tests.test_unknown_units_rejected) ... ok\ntest_unsubstantiated_value_cannot_enter_candidate (test_pipeline.Tests.test_unsubstantiated_value_cannot_enter_candidate) ... ok\n\n----------------------------------------------------------------------\nRan 41 tests in 0.356s\n\nOK\n"
+    }
+  ]
+}

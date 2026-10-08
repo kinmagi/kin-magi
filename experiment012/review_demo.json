@@ -1,0 +1,42 @@
+{
+  "baseline_hash": "5595729dd86d2f8e80a4c4c6c23021f8fe1f1d1f8b29302cc5fde230dfb5f906",
+  "counts": {
+    "new": 1,
+    "duplicate": 1,
+    "correction": 0,
+    "conflict": 0,
+    "missing": 0,
+    "rejected": 0
+  },
+  "records": [
+    {
+      "id": 1,
+      "hash": "4461a78186b1ef2706138c2611a8a002768f4de8de717d636a96251f6614d659",
+      "key": "constant:electron_mass",
+      "classification": "new",
+      "reason": "new local reference coverage; not proof of a historical source revision",
+      "baseline_hash": "5595729dd86d2f8e80a4c4c6c23021f8fe1f1d1f8b29302cc5fde230dfb5f906",
+      "accepted_format": true,
+      "missing_metadata": [],
+      "unknown_fields": [],
+      "publication_blockers": [
+        "licence review required"
+      ]
+    },
+    {
+      "id": 2,
+      "hash": "56bcb8c51c486ea996531ef723fd7cfbac6b533d1d6fa357ee7c497aa9df3f08",
+      "key": "constant:m_u",
+      "classification": "duplicate",
+      "reason": "matches previous authoritative constant",
+      "baseline_hash": "5595729dd86d2f8e80a4c4c6c23021f8fe1f1d1f8b29302cc5fde230dfb5f906",
+      "accepted_format": true,
+      "missing_metadata": [],
+      "unknown_fields": [],
+      "publication_blockers": [
+        "licence review required"
+      ]
+    }
+  ],
+  "meaning": "Accepted format is not scientific certification or publication approval."
+}

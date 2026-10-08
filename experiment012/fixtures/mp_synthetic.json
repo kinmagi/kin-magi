@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "material_id": "mp-149",
+      "formula_pretty": "Si",
+      "density": 42,
+      "last_updated": "fixture-only",
+      "origins": []
+    }
+  ],
+  "meta": {
+    "db_version": "synthetic-test-version"
+  }
+}
