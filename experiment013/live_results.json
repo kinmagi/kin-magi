@@ -1,0 +1,171 @@
+{
+  "mode": "real HTTP; forced refresh; finite opt-in run",
+  "rounds": 2,
+  "results": [
+    {
+      "round": 1,
+      "source": "nist",
+      "status": "failed",
+      "record_ids": []
+    },
+    {
+      "round": 1,
+      "source": "pubchem",
+      "status": "failed",
+      "record_ids": []
+    },
+    {
+      "round": 1,
+      "source": "materials_project",
+      "status": "failed",
+      "record_ids": []
+    },
+    {
+      "round": 2,
+      "source": "nist",
+      "status": "failed",
+      "record_ids": []
+    },
+    {
+      "round": 2,
+      "source": "pubchem",
+      "status": "failed",
+      "record_ids": []
+    },
+    {
+      "round": 2,
+      "source": "materials_project",
+      "status": "failed",
+      "record_ids": []
+    }
+  ],
+  "verified_repeated_live_acquisition": false,
+  "monitoring": {
+    "exchanges": [
+      {
+        "id": 1,
+        "run": 1,
+        "source": "nist",
+        "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+        "retrieved_at": 1791467264.2557817,
+        "http_status": null,
+        "sha256": null,
+        "headers": {},
+        "source_response_date": null,
+        "source_last_modified": null,
+        "outcome": "destination_policy_denied",
+        "origin": "live"
+      },
+      {
+        "id": 2,
+        "run": 2,
+        "source": "pubchem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/962/property/MolecularFormula,MolecularWeight/JSON",
+        "retrieved_at": 1791467264.2774725,
+        "http_status": null,
+        "sha256": null,
+        "headers": {},
+        "source_response_date": null,
+        "source_last_modified": null,
+        "outcome": "destination_policy_denied",
+        "origin": "live"
+      },
+      {
+        "id": 3,
+        "run": 4,
+        "source": "nist",
+        "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+        "retrieved_at": 1791467265.2544732,
+        "http_status": null,
+        "sha256": null,
+        "headers": {},
+        "source_response_date": null,
+        "source_last_modified": null,
+        "outcome": "destination_policy_denied",
+        "origin": "live"
+      },
+      {
+        "id": 4,
+        "run": 5,
+        "source": "pubchem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/962/property/MolecularFormula,MolecularWeight/JSON",
+        "retrieved_at": 1791467265.2824526,
+        "http_status": null,
+        "sha256": null,
+        "headers": {},
+        "source_response_date": null,
+        "source_last_modified": null,
+        "outcome": "destination_policy_denied",
+        "origin": "live"
+      }
+    ],
+    "schema": "013.monitor.1",
+    "baseline_version": "cw011-2026-10-08.1",
+    "baseline_hash": "5595729dd86d2f8e80a4c4c6c23021f8fe1f1d1f8b29302cc5fde230dfb5f906",
+    "sources": {
+      "nist": {
+        "completed_runs": 2,
+        "outcomes": {
+          "success": 0,
+          "access_unavailable": 2,
+          "validation_failed": 0,
+          "interrupted": 0
+        },
+        "success_fraction": 0.0,
+        "http_success_exchanges": 0,
+        "last_result": "access_unavailable",
+        "last_error": "destination policy denied; configure permitted host access",
+        "distinct_staged_keys": [],
+        "coverage_count": 0
+      },
+      "pubchem": {
+        "completed_runs": 2,
+        "outcomes": {
+          "success": 0,
+          "access_unavailable": 2,
+          "validation_failed": 0,
+          "interrupted": 0
+        },
+        "success_fraction": 0.0,
+        "http_success_exchanges": 0,
+        "last_result": "access_unavailable",
+        "last_error": "destination policy denied; configure permitted host access",
+        "distinct_staged_keys": [],
+        "coverage_count": 0
+      },
+      "materials_project": {
+        "completed_runs": 2,
+        "outcomes": {
+          "success": 0,
+          "access_unavailable": 2,
+          "validation_failed": 0,
+          "interrupted": 0
+        },
+        "success_fraction": 0.0,
+        "http_success_exchanges": 0,
+        "last_result": "access_unavailable",
+        "last_error": "MP_API_KEY required; no request made",
+        "distinct_staged_keys": [],
+        "coverage_count": 0
+      }
+    },
+    "observations": [],
+    "pending_review_keys": [],
+    "counts": {
+      "new": 0,
+      "unchanged": 0,
+      "correction": 0,
+      "conflict": 0,
+      "missing": 0,
+      "rejected": 0
+    },
+    "unfinished_runs": 0,
+    "candidate_count": 0,
+    "approved_count": 0,
+    "published_count": 0,
+    "meaning": "Staged coverage and accepted format do not establish authoritative scientific coverage or licence approval."
+  },
+  "published": false,
+  "mp_requested": true,
+  "mp_credentials_present": false
+}

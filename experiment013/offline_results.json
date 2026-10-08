@@ -1,0 +1,471 @@
+{
+  "mode": "offline replay; simulated corrections/conflicts are not scientific claims",
+  "checks": {
+    "new_detected": true,
+    "unchanged_detected": true,
+    "synthetic_correction_detected": true,
+    "synthetic_conflict_detected": true,
+    "reversion_not_mislabelled_unchanged": true,
+    "scheduled_tick_succeeded": true,
+    "staging_restart_equal": true,
+    "catalogue_world_lab_unchanged": true,
+    "object_dataset_pin_recovered": true,
+    "nothing_approved_or_published": true,
+    "no_live_success_claimed": true
+  },
+  "all_passed": true,
+  "monitoring": {
+    "exchanges": [
+      {
+        "id": 1,
+        "run": 1,
+        "source": "nist",
+        "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+        "retrieved_at": 2000000010.0,
+        "http_status": 200,
+        "sha256": "757fda9df9b13ed453e47c914a5ffe2faf753d87b70ab483b8bbbc3fbce07d24",
+        "headers": {
+          "content-type": "text/plain",
+          "date": "Thu, 08 Oct 2026 00:00:00 GMT"
+        },
+        "source_response_date": "Thu, 08 Oct 2026 00:00:00 GMT",
+        "source_last_modified": null,
+        "outcome": "http_success",
+        "origin": "synthetic_fixture"
+      },
+      {
+        "id": 2,
+        "run": 2,
+        "source": "nist",
+        "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+        "retrieved_at": 2000000020.0,
+        "http_status": 200,
+        "sha256": "757fda9df9b13ed453e47c914a5ffe2faf753d87b70ab483b8bbbc3fbce07d24",
+        "headers": {
+          "content-type": "text/plain",
+          "date": "Thu, 08 Oct 2026 00:00:00 GMT"
+        },
+        "source_response_date": "Thu, 08 Oct 2026 00:00:00 GMT",
+        "source_last_modified": null,
+        "outcome": "http_success",
+        "origin": "synthetic_fixture"
+      },
+      {
+        "id": 3,
+        "run": 3,
+        "source": "nist",
+        "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+        "retrieved_at": 2000000030.0,
+        "http_status": 200,
+        "sha256": "5084ed904faecd8765aa44c3a46a1a42dafc723f9c84128a723359f9fb1aaa93",
+        "headers": {
+          "content-type": "text/plain",
+          "date": "Thu, 08 Oct 2026 00:00:00 GMT"
+        },
+        "source_response_date": "Thu, 08 Oct 2026 00:00:00 GMT",
+        "source_last_modified": null,
+        "outcome": "http_success",
+        "origin": "synthetic_fixture"
+      },
+      {
+        "id": 4,
+        "run": 4,
+        "source": "nist",
+        "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+        "retrieved_at": 2000000040.0,
+        "http_status": 200,
+        "sha256": "f9181376438535721fdc0a2820a0c038fceea24016cd634ec4bfe1df62adff54",
+        "headers": {
+          "content-type": "text/plain",
+          "date": "Thu, 08 Oct 2026 00:00:00 GMT"
+        },
+        "source_response_date": "Thu, 08 Oct 2026 00:00:00 GMT",
+        "source_last_modified": null,
+        "outcome": "http_success",
+        "origin": "synthetic_fixture"
+      },
+      {
+        "id": 5,
+        "run": 5,
+        "source": "nist",
+        "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+        "retrieved_at": 2000000050.0,
+        "http_status": 200,
+        "sha256": "5084ed904faecd8765aa44c3a46a1a42dafc723f9c84128a723359f9fb1aaa93",
+        "headers": {
+          "content-type": "text/plain",
+          "date": "Thu, 08 Oct 2026 00:00:00 GMT"
+        },
+        "source_response_date": "Thu, 08 Oct 2026 00:00:00 GMT",
+        "source_last_modified": null,
+        "outcome": "http_success",
+        "origin": "synthetic_fixture"
+      },
+      {
+        "id": 6,
+        "run": 6,
+        "source": "nist",
+        "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+        "retrieved_at": 2000000050.0,
+        "http_status": 200,
+        "sha256": "5084ed904faecd8765aa44c3a46a1a42dafc723f9c84128a723359f9fb1aaa93",
+        "headers": {
+          "content-type": "text/plain",
+          "date": "Thu, 08 Oct 2026 00:00:00 GMT"
+        },
+        "source_response_date": "Thu, 08 Oct 2026 00:00:00 GMT",
+        "source_last_modified": null,
+        "outcome": "http_success",
+        "origin": "synthetic_fixture"
+      }
+    ],
+    "schema": "013.monitor.1",
+    "baseline_version": "cw011-2026-10-08.1",
+    "baseline_hash": "5595729dd86d2f8e80a4c4c6c23021f8fe1f1d1f8b29302cc5fde230dfb5f906",
+    "sources": {
+      "nist": {
+        "completed_runs": 6,
+        "outcomes": {
+          "success": 6,
+          "access_unavailable": 0,
+          "validation_failed": 0,
+          "interrupted": 0
+        },
+        "success_fraction": 1.0,
+        "http_success_exchanges": 0,
+        "last_result": "success",
+        "last_error": null,
+        "distinct_staged_keys": [
+          "constant:electron_mass",
+          "constant:m_u"
+        ],
+        "coverage_count": 2
+      },
+      "pubchem": {
+        "completed_runs": 0,
+        "outcomes": {
+          "success": 0,
+          "access_unavailable": 0,
+          "validation_failed": 0,
+          "interrupted": 0
+        },
+        "success_fraction": null,
+        "http_success_exchanges": 0,
+        "last_result": null,
+        "last_error": null,
+        "distinct_staged_keys": [],
+        "coverage_count": 0
+      },
+      "materials_project": {
+        "completed_runs": 0,
+        "outcomes": {
+          "success": 0,
+          "access_unavailable": 0,
+          "validation_failed": 0,
+          "interrupted": 0
+        },
+        "success_fraction": null,
+        "http_success_exchanges": 0,
+        "last_result": null,
+        "last_error": null,
+        "distinct_staged_keys": [],
+        "coverage_count": 0
+      }
+    },
+    "observations": [
+      {
+        "id": 1,
+        "run": 1,
+        "key": "constant:electron_mass",
+        "classification": "new",
+        "reason": "new local reference coverage; not proof of a historical source revision",
+        "metadata_changed": false,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2022",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "2.8E-40"
+        },
+        "unknown_information": []
+      },
+      {
+        "id": 2,
+        "run": 1,
+        "key": "constant:m_u",
+        "classification": "unchanged",
+        "reason": "matches previous authoritative constant",
+        "metadata_changed": false,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2022",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "5.2E-37"
+        },
+        "unknown_information": []
+      },
+      {
+        "id": 3,
+        "run": 2,
+        "key": "constant:electron_mass",
+        "classification": "unchanged",
+        "reason": "matches latest scientific content; source metadata retained",
+        "metadata_changed": false,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2022",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "2.8E-40"
+        },
+        "unknown_information": []
+      },
+      {
+        "id": 4,
+        "run": 2,
+        "key": "constant:m_u",
+        "classification": "unchanged",
+        "reason": "matches latest scientific content; source metadata retained",
+        "metadata_changed": false,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2022",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "5.2E-37"
+        },
+        "unknown_information": []
+      },
+      {
+        "id": 5,
+        "run": 3,
+        "key": "constant:electron_mass",
+        "classification": "correction",
+        "reason": "newer CODATA release differs; correction candidate requires review",
+        "metadata_changed": true,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2024",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "2.8E-40"
+        },
+        "unknown_information": []
+      },
+      {
+        "id": 6,
+        "run": 3,
+        "key": "constant:m_u",
+        "classification": "unchanged",
+        "reason": "matches latest scientific content; source metadata retained",
+        "metadata_changed": true,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2024",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "5.2E-37"
+        },
+        "unknown_information": []
+      },
+      {
+        "id": 7,
+        "run": 4,
+        "key": "constant:electron_mass",
+        "classification": "conflict",
+        "reason": "different latest content without an established newer ordered source release",
+        "metadata_changed": false,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2024",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "2.8E-40"
+        },
+        "unknown_information": []
+      },
+      {
+        "id": 8,
+        "run": 4,
+        "key": "constant:m_u",
+        "classification": "unchanged",
+        "reason": "matches latest scientific content; source metadata retained",
+        "metadata_changed": false,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2024",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "5.2E-37"
+        },
+        "unknown_information": []
+      },
+      {
+        "id": 9,
+        "run": 5,
+        "key": "constant:electron_mass",
+        "classification": "conflict",
+        "reason": "different latest content without an established newer ordered source release",
+        "metadata_changed": false,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2024",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "2.8E-40"
+        },
+        "unknown_information": []
+      },
+      {
+        "id": 10,
+        "run": 5,
+        "key": "constant:m_u",
+        "classification": "unchanged",
+        "reason": "matches latest scientific content; source metadata retained",
+        "metadata_changed": false,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2024",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "5.2E-37"
+        },
+        "unknown_information": []
+      },
+      {
+        "id": 11,
+        "run": 6,
+        "key": "constant:electron_mass",
+        "classification": "unchanged",
+        "reason": "matches latest scientific content; source metadata retained",
+        "metadata_changed": false,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2024",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "2.8E-40"
+        },
+        "unknown_information": []
+      },
+      {
+        "id": 12,
+        "run": 6,
+        "key": "constant:m_u",
+        "classification": "unchanged",
+        "reason": "matches latest scientific content; source metadata retained",
+        "metadata_changed": false,
+        "scientific_classification": "reference_constant",
+        "legacy_kind": "measured",
+        "evidence_origin": "synthetic_fixture",
+        "source_version": "2024",
+        "units": "kg",
+        "conditions": {
+          "scope": "CODATA recommended fundamental constant; no ambient-condition model"
+        },
+        "uncertainty": {
+          "kind": "standard",
+          "note": "CODATA recommended uncertainty",
+          "units": "kg",
+          "value": "5.2E-37"
+        },
+        "unknown_information": []
+      }
+    ],
+    "pending_review_keys": [
+      "constant:electron_mass"
+    ],
+    "counts": {
+      "new": 1,
+      "unchanged": 8,
+      "correction": 1,
+      "conflict": 2,
+      "missing": 0,
+      "rejected": 0
+    },
+    "unfinished_runs": 0,
+    "candidate_count": 0,
+    "approved_count": 0,
+    "published_count": 0,
+    "meaning": "Staged coverage and accepted format do not establish authoritative scientific coverage or licence approval."
+  },
+  "published": false
+}
