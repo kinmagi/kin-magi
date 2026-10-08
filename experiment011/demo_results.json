@@ -1,0 +1,159 @@
+{
+  "dataset_version": "cw011-2026-10-08.1",
+  "dataset_sha256": "5595729dd86d2f8e80a4c4c6c23021f8fe1f1d1f8b29302cc5fde230dfb5f906",
+  "checks": {
+    "unknown_rejected": true,
+    "excess_transfer_rejected": true,
+    "restart_objects": true,
+    "engine_state_isolated": true,
+    "engine_events_preserved": true,
+    "reference_read_only": true,
+    "mass_conserved": true
+  },
+  "objects": {
+    "receiver": {
+      "dataset_sha256": "5595729dd86d2f8e80a4c4c6c23021f8fe1f1d1f8b29302cc5fde230dfb5f906",
+      "dataset_version": "cw011-2026-10-08.1",
+      "id": "receiver",
+      "mass_kg": "0.100",
+      "material_id": "al6061-t6",
+      "region": "0",
+      "version": 1
+    },
+    "sample": {
+      "dataset_sha256": "5595729dd86d2f8e80a4c4c6c23021f8fe1f1d1f8b29302cc5fde230dfb5f906",
+      "dataset_version": "cw011-2026-10-08.1",
+      "id": "sample",
+      "mass_kg": "0.900",
+      "material_id": "al6061-t6",
+      "region": "0",
+      "version": 1
+    }
+  },
+  "specific_heat_at_100K": {
+    "conditions": {
+      "phase": "solid",
+      "pressure_Pa": null,
+      "scope": "6061-T6 only; pressure and batch composition unspecified",
+      "temperature_K": [
+        4,
+        300
+      ]
+    },
+    "material_id": "al6061-t6",
+    "model": {
+      "coefficients": [
+        "46.6467",
+        "-314.292",
+        "866.662",
+        "-1298.3",
+        "1162.27",
+        "-637.795",
+        "210.351",
+        "-38.3094",
+        "2.96344"
+      ],
+      "formula": "log10(y / output_unit) = sum(a_i * log10(T/(1 K))^i)",
+      "kind": "log10_polynomial",
+      "source_data_min_K": 4,
+      "source_equation_min_K": 4
+    },
+    "name": "specific_heat",
+    "note": "Evaluation restricted to overlap of source data and equation ranges (4\u2013300 K). No extrapolation to 1 K.",
+    "source_id": "al6061",
+    "status": "approximation",
+    "uncertainty": {
+      "kind": "curve_fit_percent",
+      "note": "Percent error relative to source data; not a full measurement uncertainty or confidence bound.",
+      "units": "percent",
+      "value": "5"
+    },
+    "units": "J/(kg K)",
+    "value": "492.1981760576777",
+    "evaluated_conditions": {
+      "temperature_K": "100"
+    },
+    "dataset_version": "cw011-2026-10-08.1",
+    "dataset_sha256": "5595729dd86d2f8e80a4c4c6c23021f8fe1f1d1f8b29302cc5fde230dfb5f906",
+    "source": {
+      "accessed": "2026-10-08",
+      "id": "al6061",
+      "reference": "NIST cryogenic compilation; property-specific bibliography in cryo-refs",
+      "release": "no release identifier displayed; access date pin",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "title": "NIST cryogenic material properties: 6061-T6 Aluminum UNS A96061",
+      "url": "https://trc.nist.gov/cryogenics/materials/6061%20Aluminum/6061_T6Aluminum_rev.htm",
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    "evaluation": "calculated_from_source_approximation"
+  },
+  "conductivity_at_100K": {
+    "conditions": {
+      "phase": "solid",
+      "pressure_Pa": null,
+      "scope": "6061-T6 only; pressure and batch composition unspecified",
+      "temperature_K": [
+        4,
+        300
+      ]
+    },
+    "material_id": "al6061-t6",
+    "model": {
+      "coefficients": [
+        "0.07918",
+        "1.0957",
+        "-0.07277",
+        "0.08084",
+        "0.02803",
+        "-0.09464",
+        "0.04179",
+        "-0.00571",
+        "0"
+      ],
+      "formula": "log10(y / output_unit) = sum(a_i * log10(T/(1 K))^i)",
+      "kind": "log10_polynomial",
+      "source_data_min_K": 4,
+      "source_equation_min_K": 1
+    },
+    "name": "thermal_conductivity",
+    "note": "Evaluation restricted to overlap of source data and equation ranges (4\u2013300 K). No extrapolation to 1 K.",
+    "source_id": "al6061",
+    "status": "approximation",
+    "uncertainty": {
+      "kind": "curve_fit_percent",
+      "note": "Percent error relative to source data; not a full measurement uncertainty or confidence bound.",
+      "units": "percent",
+      "value": "0.5"
+    },
+    "units": "W/(m K)",
+    "value": "97.70122296741536",
+    "evaluated_conditions": {
+      "temperature_K": "100"
+    },
+    "dataset_version": "cw011-2026-10-08.1",
+    "dataset_sha256": "5595729dd86d2f8e80a4c4c6c23021f8fe1f1d1f8b29302cc5fde230dfb5f906",
+    "source": {
+      "accessed": "2026-10-08",
+      "id": "al6061",
+      "reference": "NIST cryogenic compilation; property-specific bibliography in cryo-refs",
+      "release": "no release identifier displayed; access date pin",
+      "rights": "NIST non-SRD attribution; see DATA_NOTICES.md",
+      "rights_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "title": "NIST cryogenic material properties: 6061-T6 Aluminum UNS A96061",
+      "url": "https://trc.nist.gov/cryogenics/materials/6061%20Aluminum/6061_T6Aluminum_rev.htm",
+      "verification": "Checked against the linked primary-source page via browser on access date; not a raw page snapshot."
+    },
+    "evaluation": "calculated_from_source_approximation"
+  },
+  "lab_audit": {
+    "verified": true,
+    "objects": 2,
+    "events": 3
+  },
+  "world_audit": {
+    "events": 2,
+    "regions": 1,
+    "verified": true
+  }
+}
